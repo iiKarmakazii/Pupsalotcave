@@ -718,9 +718,7 @@ Please do not remove credit
 .lionImage>img,
 .lionImage{
 content: url('https://static.lioden.com/images/dynamic/backgrounds/dreamwalker.png')!important;
-    
-    height: 490px;
-    Object-fit:cover;
+    Object-fit:contain;
     border-radius: 5px
      
 }
@@ -730,8 +728,7 @@ content: url('https://static.lioden.com/images/dynamic/backgrounds/dreamwalker.p
 /* FEATURED LION BACKGROUND */
 .lionImage>div>img:first-child {
 content: url('https://static.lioden.com/images/dynamic/backgrounds/dreamwalker.png')!important;
-    height: 490px;
-    Object-fit:cover;
+    Object-fit:contain;
     border-radius: 5px;
 }
 .image1 {
