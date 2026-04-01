@@ -718,9 +718,13 @@ Please do not remove credit
 .lionImage>img,
 .lionImage{
 content: url('https://static.lioden.com/images/dynamic/backgrounds/dreamwalker.png')!important;
-    height: 450px;
+    height: 490px;
+    display: block;
+    margin-bottom: 10px;
     Object-fit:cover;
     border-radius: 5px
+    
+    
      
 }
  
@@ -729,8 +733,10 @@ content: url('https://static.lioden.com/images/dynamic/backgrounds/dreamwalker.p
 /* FEATURED LION BACKGROUND */
 .lionImage>div>img:first-child {
 content: url('https://static.lioden.com/images/dynamic/backgrounds/dreamwalker.png')!important;
-    height: 450px;
+    height: 490px;
     border-radius: 5px;
+    display: block; 
+    margin-bottom: 10px;
 }
 .image1 {
     position: fixed;
@@ -746,6 +752,3 @@ content: url('https://static.lioden.com/images/dynamic/backgrounds/dreamwalker.p
     z-index: 10000000;
 }
 
-div#pageContainer.col-md-9.col-xs-12>p{
-    margin:20px;
-}
